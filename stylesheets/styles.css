@@ -270,10 +270,13 @@ footer {
 }
 
 .profile-pic {
-  width: 140px;
+  width: 260px;
+  height: 260px;
   border-radius: 50%;
-  margin-bottom: 15px;
-  border: 2px solid #ddd;
+  margin-bottom: 20px;
+  border: 3px solid #ddd;
+  object-fit: cover;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.2);
 }
 .portfolio-img {  
   max-width: 100%;
@@ -281,4 +284,3 @@ footer {
   margin: 20px 0;
   border-radius: 6px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);}
-  
